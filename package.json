@@ -1,0 +1,23 @@
+{
+  "name": "port-proxy",
+  "version": "1.0.0",
+  "description": "A simple local proxy useful for accessing a local port from remote machines.",
+  "preferGlobal": true,
+  "main": "index.js",
+  "bin": {
+    "port-proxy": "./index.js"
+  },
+  "keywords": [
+    "port",
+    "proxy",
+    "remote"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SoCreate/port-proxy.git"
+  },
+  "dependencies": {
+    "http-proxy": "^1.13.3"
+  }
+}
